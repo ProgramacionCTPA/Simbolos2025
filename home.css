@@ -1,0 +1,53 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background: #f4f4f4;
+}
+
+.navbar {
+   background: #3498db;
+   color: white;
+   padding: 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar h1 {
+   margin: 0;
+   font-size: 20px;
+}
+
+.navbar .user {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.navbar button {
+   background: #e74c3c;
+   border: none;
+   padding: 8px 15px;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.navbar button:hover {
+   background: #c0392b;
+}
+
+.contenido {
+   padding: 20px;
+   text-align: center;
+}
+
+/*simboloTag*/
+.simboloTag{
+   background-color: red;
+}
+
+.simboloTag img{
+   height: 200pt;
+   width: 200pt;
+}
